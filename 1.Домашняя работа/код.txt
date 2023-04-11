@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Создать html-страницу “Card game”</title>
+    <!--Задание 2
+    Создать html-страницу “Card game”.
+    Для отображения мастей карт используйте спецсимволы.-->
+    <style>
+        body {
+            font-family: Arial; /*шрифт*/
+        }
+
+        .Red {
+            color: #a21c1c; /*цвет красных*/
+        }
+
+        .row {
+            height: 80px; /*ряд*/
+        }
+
+        .card {
+            float: left; /*сторана расположения*/
+            background-color: #E0E0E0; /*цвет фона*/
+            width: 70px; /*ширина*/
+            height: 50px; /*высота*/
+            margin: 2px; /*поле*/
+            padding: 10px 0px 0px 0px; /*отступ*/
+            font-size: 30px; /*размер шрифта*/
+            text-align: center; /*выравнивание текста*/
+        }
+        .signature {
+            color: red;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Player 1:</h3><!--загаловок-->
+    <div class="row"><!--ряд карт-->
+        <div class="card">2 &spades;</div><!--класс карты--> 
+        <div class="card">
+            <span class="Red">9 &hearts;</span><!--дочерний класс красные карты-->
+        </div>
+        <div class="card">
+            <span class="Red">6 &hearts;</span>
+        </div>
+        <div class="card">
+            <span class="Red">A &diams;</span>
+        </div>
+        <div class="card">Q &spades;</div>
+        <div class="card">J &clubs;</div>
+    </div>
+    <h3>Player 2:</h3>
+    <div class="row">
+        <div class="card">
+            <span class="Red">3 &hearts;</span>
+        </div>
+        <div class="card">A &clubs;</div>
+        <div class="card">10 &clubs;</div>
+        <div class="card">
+            <span class="Red">K &diams;</span>
+        </div>
+        <div class="card">8 &spades;</div>
+        <div class="card">
+            <span class="Red">3 &hearts;</span>
+        </div>
+    </div>
+    <h2 class="signature">Домашняя работа Пономаренко Максима группа БВ112</h2>
+</body>
+</html>
