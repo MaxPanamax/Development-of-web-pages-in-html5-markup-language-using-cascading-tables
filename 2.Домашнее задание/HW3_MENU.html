@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW3_Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+
+        .menu_horizontal {
+            display: flex;
+            width: 400px;
+        }
+
+        span {
+            color: white;
+            padding: 0 50px 0 0;
+            font-size: 13px;
+            font-family: Calibri, sans-serif;
+        }
+
+        img {
+            width: 50px;
+            padding: 0 10px 0 10px;
+        }
+
+        .li_img {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+            background: darkgrey;
+        }
+
+            li:hover {
+                background: grey;
+            }
+    </style>
+    <div class="menu_horizontal">
+        <ul class="navigation">
+            <li><a class="li_img"><img src="edit.png"><span>Редактировать</span></a></li>
+            <li><a class="li_img"><img src="favorites.png"><span>Избранное</span></a></li>
+            <li><a class="li_img"><img src="history.png"><span>История</span></a></li>
+            <li><a class="li_img"><img src="security.png"><span>Безопасность</span></a></li>
+            <li><a class="li_img"><img src="settings.png"><span>Настройки</span></a></li>
+        </ul>
+    </div>
+</body>
+</html>
