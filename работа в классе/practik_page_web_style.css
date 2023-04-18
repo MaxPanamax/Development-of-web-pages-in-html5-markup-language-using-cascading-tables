@@ -1,0 +1,28 @@
+﻿h2 {
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.mainBlock1 {
+    background: #923258;
+    padding: 20px;
+    margin: 10px;
+}
+
+.mainBlock2, .mainBlock4 {
+    background: #6d1337;
+    padding: 5px 20px;
+    margin: 10px;
+}
+
+.mainBlock3 {
+    margin: 10px;
+}
+
+.mainBlock3_grid {
+    display: grid;
+    grid-template-columns: 3.5fr 5.5fr 1fr;
+    border: solid 2px #000;
+}

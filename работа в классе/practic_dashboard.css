@@ -1,0 +1,94 @@
+﻿body {
+    background-color: darkgray;
+}
+.menu_bar {
+    width: fit-content;
+    list-style-type: none;
+}
+.menu_bar a:hover {
+    background-color: #5e5e5e;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #808080;
+    transition: width 1s;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color:whitesmoke;
+}
+.main_info {
+    width: 80%;
+    margin-left: 20%;
+    height: 100vh;
+}
+.grafics {
+    display: flex;
+}
+.trafic {
+    background-color: whitesmoke;
+    width: 500px;
+    height:300px;
+    margin-top: 0;
+    margin-left: 20px;
+    border: 1px solid #000;
+}
+.loads {
+    background-color: whitesmoke;
+    width: 500px;
+    height:300px;
+    margin-top:0;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #000;
+}
+.recent_activity {
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:20px;
+    border: 1px solid #000;
+}
+h1 {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 5px;
+    white-space: nowrap;
+}
+h3{
+    margin-left:20px;
+}
+
+tr.table-of-contents {
+    font-weight: bold;
+}
+table {
+    width: 1000px;
+}
+tr #first {
+    width: 10%;
+}
+tr #Title{
+    width:50%;
+} 
+tr #Autor{
+    width:20%;
+}
+tr #Date{
+    width:20%;
+}
+td{
+    padding:8px;
+}
+table {
+    border-collapse: separate;
+    empty-cells: hide;
+    text-align: left;
+}
+    

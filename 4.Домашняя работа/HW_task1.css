@@ -1,0 +1,46 @@
+﻿body{
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    font-family: "Goudy Bookletter 1911", sans-serif; 
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 50px 100px;
+}
+
+th {
+    background-color: lightskyblue;
+    white-space: nowrap;/* white-space:pre;*/
+}
+
+tbody td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+tr:nth-child(even) {/*чётные элементы*/
+    background-color: lightgray;
+}
+
+tr:nth-child(odd) {/*нечётный*/
+    background-color: whitesmoke/*rgb(250, 249, 249);*/
+}
+
+thead tr {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+tbody th {
+    position: sticky;
+    left: 0;
+}

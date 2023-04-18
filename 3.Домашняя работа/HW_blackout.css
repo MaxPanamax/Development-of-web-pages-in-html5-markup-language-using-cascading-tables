@@ -1,0 +1,91 @@
+﻿body {
+    background-color: whitesmoke;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+.main {
+    width: 600px;
+    height: 150px;
+    position: relative;
+    font-size: 20px;
+}
+.main2 {
+    width: 600px;
+    height: 150px;
+    position: relative;
+    font-size: 30px;
+}
+.main3 {
+    width: 600px;
+    height: 150px;
+    position: relative;
+    font-size: 40px;
+}
+p {
+    margin: 0px;
+    padding: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.logo, .information {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.logo {
+    right: 0;
+}
+
+.information {
+    left: 0;
+    background-color:lightblue;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo::after, .information::after {
+    transition: 0.3s;
+    content: '';
+    background-color: rgba(104, 110, 143, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0%;
+}
+
+img {
+    transition: 1s;
+}
+
+.main:hover .logo img {
+    transform: scale(1.8);
+}
+
+.main:hover .logo::after, .main:hover .information:after {
+    height: 100%;
+}
+.main2:hover .logo img {
+    transform: scale(1.8);
+}
+
+.main2:hover .logo::after, .main2:hover .information:after {
+    height: 100%;
+}
+.main3:hover .logo img {
+    transform: scale(1.8);
+}
+
+.main3:hover .logo::after, .main3:hover .information:after {
+    height: 100%;
+}

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <form>
+        <p><label for="txt">Введите текст: </label><input type="text" id="txt" name="txt" value="Текст"></p>
+        <p>
+            <label for="font">Выберите стиль: </label><select name="font" id="font">
+                <option value="bold">Жирный</option>
+                <option value="italic">Курсив</option>
+                <option value="bold italic">Жирный курсив</option>
+                <option value="" selected>Без стиля</option>
+            </select>
+        </p>
+        <input type="button" id="show" value="Отобразить шрифт" />
+    </form>
+    <script>
+        document.getElementById("show").onclick = fontHandler;
+        function fontHandler(e) {
+            var str = document.getElementById("font").value,
+                txt = document.getElementById("txt");
+
+            txt.style.fontStyle = str.match("italic");
+            txt.style.fontWeight = str.match("bold");
+        }
+    </script>
+</body>
+</html>
