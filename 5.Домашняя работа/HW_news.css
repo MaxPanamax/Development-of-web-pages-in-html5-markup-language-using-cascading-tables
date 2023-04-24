@@ -1,0 +1,45 @@
+﻿body
+{
+    background-color:lightblue;
+}
+.grid {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+}
+#the_first, #sixth, #ninth {
+    height:150px;
+}
+#second{
+    height:220px;
+}
+#third, #fourth, #seventh {
+    height:100px;
+}
+#fifth{
+    height:230px;
+}
+#eighth{
+    height:350px;
+}
+
+.container {
+    padding-bottom: 15px;
+}
+.title {
+    font-size:x-large;
+}
+.title, .content {
+    text-align:left;
+    padding: 30px;
+    background-color:darkgray;
+    font-weight: bold;
+}
+
+.content {
+    text-align: justify;
+    background-color: azure;
+    font-weight: normal;
+    padding: 10px;
+}
