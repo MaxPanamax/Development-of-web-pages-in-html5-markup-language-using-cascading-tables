@@ -1,0 +1,93 @@
+﻿body
+{
+}
+.container {
+    background-color: white;
+}
+.heading {
+    text-align: center;
+    margin: 25px;
+    font-weight: 400;
+    font-size: 60px;
+    font-family: cursive;
+}
+.heading-row {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    font-weight: 300;
+    font-size: 40px;
+    font-family: cursive;
+}
+.currentArea, .reviewedArea, .underReviewArea, .overdueArea {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:cornflowerblue;
+    display: inline-block;
+}
+    .currentArea{
+        background-color:lightgray;
+    }
+    .reviewedArea {
+        background-color: limegreen;
+    }
+    .overdueArea {
+        background-color: palevioletred;
+    }
+    .head {
+        display: flex;
+        justify-content: space-between;
+    }
+.subtitle {
+    text-align:left;
+    margin: 25px;
+    font-weight: 200;
+    font-size: 40px;
+    font-family: cursive;
+}
+.card-title {
+    text-align: left;
+    margin: 15px;
+    font-weight: 200;
+    font-size: 30px;
+    font-family: cursive;
+}
+.score {
+    text-align: right;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: cursive;
+    color: pink;
+}
+.descriptionColor {
+    font-weight: 200;
+    font-size: 20px;
+    font-family: cursive;
+}
+.score {
+    position: absolute;
+    right: 5%;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: red;
+}
+.overdue {
+    background-color: palevioletred;
+}
+.reviewed {
+    background-color: limegreen;
+}
+.underReview {
+    background-color: cornflowerblue;
+}
+.curentHomeWork {
+    background-color: lightgray;
+}
+.col-3,.col-5,.col-4 {
+    font-weight: 200;
+    font-size: 30px;
+    font-family: cursive;
+}

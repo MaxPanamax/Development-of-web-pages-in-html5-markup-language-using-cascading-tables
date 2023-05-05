@@ -1,0 +1,25 @@
+﻿body
+{
+}
+.header {
+    text-align: center;
+    justify-content: space-between;
+    padding: 60px;
+    font-weight: 300;
+    font-size: 40px;
+    font-family: cursive;
+}
+.name, .myGit, .contact {
+    font-weight: 300;
+    font-size: 40px;
+    font-family: cursive;
+}
+.video {
+    width: 500px;
+    height: 300px;
+}
+.muz {
+    font-weight: 200;
+    font-size: 20px;
+    font-family: cursive;
+}
